@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nao-pon\\Flysystem\\Copy\\": "src/"
+            "League\\Flysystem\\Copy\\": "src/"
         }
     },
     "config": {
