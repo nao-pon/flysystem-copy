@@ -59,8 +59,6 @@ class CopyAdapter extends AbstractAdapter
      */
     public function has($path)
     {
-        $location = $this->applyPathPrefix($path);
-
         return $this->getMetadata($location);
     }
 
