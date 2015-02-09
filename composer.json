@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "league/flysystem": "~1.0",
+        "nao-pon/flysystem": "dev-pilot",
         "nao-pon/copy": "dev-pilot"
     },
     "require-dev": {
