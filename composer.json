@@ -24,5 +24,10 @@
     },
     "config": {
         "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-pilot": "1.x"
+        }
     }
 }
