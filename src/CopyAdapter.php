@@ -72,7 +72,7 @@ class CopyAdapter extends AbstractAdapter
 
         unset($this->metaCache[$location]);
 
-        return $this->normalizeObject($result, $path);
+        return $this->normalizeObject($result, $location);
     }
 
     /**
@@ -85,7 +85,7 @@ class CopyAdapter extends AbstractAdapter
 
         unset($this->metaCache[$location]);
 
-        return $this->normalizeObject($result, $path);
+        return $this->normalizeObject($result, $location);
     }
 
     /**
@@ -98,7 +98,7 @@ class CopyAdapter extends AbstractAdapter
 
         unset($this->metaCache[$location]);
 
-        return $this->normalizeObject($result, $path);
+        return $this->normalizeObject($result, $location);
     }
 
     /**
@@ -111,7 +111,7 @@ class CopyAdapter extends AbstractAdapter
 
         unset($this->metaCache[$location]);
 
-        return $this->normalizeObject($result, $path);
+        return $this->normalizeObject($result, $location);
     }
 
     /**
